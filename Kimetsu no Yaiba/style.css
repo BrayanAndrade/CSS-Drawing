@@ -1,0 +1,247 @@
+body {
+    background-color: rgb(2, 34, 49);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    transform: translateX(20%)
+}
+
+.oval {
+    z-index:10;
+    width: 400px;
+    height: 520px;
+    border-radius: 50% 50% 50% 50% / 33% 33% 57% 57% ;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.queixo {
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 59px solid rgb(255, 255, 255);
+    transform: translate(-287px, 257px);
+    border-radius: 15px 30px 80px 50px;
+}
+.orelhaef {
+    width: 160px;
+    height: 240px;
+    background-color: #fff;
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+    transform: translate(-598px, -240px) rotate(-11deg);
+}
+
+.orelhaed {
+    width: 125px;
+    height: 200px;
+    background-color: rgb(145, 0, 0); 
+    background: linear-gradient( 152deg, rgba(2,0,36,1) 0%, rgba(96,0,0,1) 35%, rgba(162,0,0,1) 100%);
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+    transform: translate(18px, 15px) rotate(-2deg);
+}
+
+.orelhadf {
+    width: 160px;
+    height: 240px;
+    background-color: #fff;
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+    transform: translate(-470px, -240px) rotate(11deg);
+}
+
+.orelhadd {
+    width: 125px;
+    height: 200px;
+    background-color: rgb(145, 0, 0); 
+    background: linear-gradient( 152deg, rgba(2,0,36,1) 0%, rgba(96,0,0,1) 35%, rgba(162,0,0,1) 100%);
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+    transform: translate(18px, 15px) rotate(-1deg);
+}
+
+.circle{
+    z-index: 9999;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    background-color: rgb(196, 0, 0);
+    transform: translate(230px, -18px);
+    
+}
+
+.rdcircle{
+    z-index: 9999;
+    width: 230px;
+    height: 230px;
+    border-radius: 50% ;
+    border: 21px dashed rgb(196, 0, 0);
+    background-color: transparent;
+    transform: translate(198px, -257px);
+    
+}
+
+.nariz{
+    z-index: 999;
+    width: 50px;
+    height: 35px;
+    border-radius: 48% 50% 50% 50% / 20% 20% 50% 50% ;
+    background-color: rgb(0, 0, 0);
+    transform: translate(221px, 129px);
+}
+
+.bocac{
+    z-index: 9999;
+    width: 8px;
+    height:50px;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-698px, 150px);
+}
+.bocae{
+    z-index: 9999;
+    width: 10px;
+    height:50px;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-727px, 190px) rotate(50deg);
+}
+.bocad{
+    z-index: 9999;
+    width: 10px;
+    height:50px;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-700px, 190px) rotate(-50deg);
+}
+
+.bol1{
+    z-index: 9999;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-700px, 215px) rotate(-45deg);
+}
+.bol2{
+    z-index: 9999;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-840px, 215px) rotate(-45deg);
+}
+
+.olhoec {
+    z-index: 999;
+    width: 100px;
+    height: 130px;
+    background-color:transparent;
+    border-radius: 15px 50px 280px;
+    box-shadow: 8px 3px rgb(0, 0, 0);
+    transform: translate(-970px, 10px) rotate(-85deg);
+
+}
+.olhoeb {
+    z-index: 999;
+    width: 110px;
+    height: 140px;
+    background-color:transparent;
+    border-radius: 15px 100px 280px;
+    box-shadow: 2px 6px rgb(0, 0, 0);
+    transform: translate(-1061px, 1px) rotate(85deg);
+
+}
+
+.ciliosec {
+    z-index: 999;
+    width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 32px solid rgb(0, 0, 0);
+    transform: translate(-1211px, -48px) rotate(-49deg);
+
+}
+
+.cilioseb {
+    z-index: 999;
+    width: 0;
+    height: 0;
+    border-left: 1px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 23px solid rgb(0, 0, 0);
+    transform: translate(-1101px, 42px) rotate(12deg);
+
+}
+
+.reticula1{
+    z-index: 99;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    transform: translate(-1211px, 6px);
+}
+
+.olhodc {
+    z-index: 999;
+    width: 110px;
+    height: 130px;
+    background-color:transparent;
+    border-radius: 320px 50px 280px;
+    box-shadow: 4px 8px rgb(0, 0, 0);
+    transform: translate(-1098px, 13px) rotate(199deg);
+
+}
+
+.olhodb {
+    z-index: 999;
+    position: relative;
+    width: 110px;
+    height: 140px;
+    background-color:transparent;
+    border-radius: 290px 55px 280px;
+    box-shadow: 6px 1px rgb(0, 0, 0);
+    transform: translate(603px, 325px) rotate(15deg);
+
+} 
+
+
+.ciliosdc {
+    z-index: 999;
+    width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    transform: translate(-1102px, -50px) rotate(39deg);
+
+}
+
+.ciliosdb {
+    z-index: 999;
+    width: 0;
+    height: 0;
+    border-left: 1px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 23px solid rgb(0, 0, 0);
+    transform: translate(-1104px, 42px) rotate(13deg);
+
+}
+
+ .reticula2{
+    z-index: 9999;
+    position: relative;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+ 
+    transform: translate(620px, 442px);
+} 
